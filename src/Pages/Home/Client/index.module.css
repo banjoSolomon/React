@@ -1,0 +1,30 @@
+.clientLogos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+
+
+}
+
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member2{
+    display: flex;
+}
+.member2 > p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
