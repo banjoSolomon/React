@@ -1,0 +1,15 @@
+.section2{
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+    justify-content: center;
+
+}
+
+.section2 img {
+    max-width: 100%;
+}
+
+.section2 div {
+    max-width: 600px;
+}
