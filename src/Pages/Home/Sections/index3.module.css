@@ -1,11 +1,32 @@
-.section3{
+.section3 {
     display: flex;
-    gap: 40px;
+    flex-direction: row;
     padding: 10%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    margin-top: -100px;
+    background-color: #F5F7FA;
 
 
 }
 
+.new {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+
+.new > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.new img {
+    max-width: 100px;
+}
+/*.section3 > div:first-child {*/
+/*    margin-top: 20px;*/
+/*}*/

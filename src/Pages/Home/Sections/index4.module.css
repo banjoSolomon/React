@@ -1,0 +1,29 @@
+.section4 {
+    display: flex;
+    gap: 40px;
+    padding: 10%;
+}
+
+.section4 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 20px;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.section4 button {
+    font-size: 1rem;
+    cursor: pointer;
+    height: 52px;
+    width: 151px;
+}
+
+
+
