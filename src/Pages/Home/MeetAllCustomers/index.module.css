@@ -4,8 +4,8 @@
     align-items: flex-start;
     color: #717171;
     background-color: #F5F7FA;
-    padding: 20px; /* Optional: add some padding for better spacing */
-    flex-wrap: nowrap; /* Ensure the flex container does not wrap items to the next line */
+    padding: 20px;
+    flex-wrap: nowrap;
 }
 
 .text {
