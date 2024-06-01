@@ -19,6 +19,7 @@ const Marketing = () => {
                <img src={image90} alt="2.png"/>
                <img src={image91} alt="3.png"/>
            </div>
+           <button className={styles.button}>Get a Demo </button>
 
        </div>
     )
