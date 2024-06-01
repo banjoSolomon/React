@@ -18,7 +18,4 @@ export const members = [
         name: "Clubs And <br/> Groups",
         text: "Our membership management software provides full automation of membership renewals and payments"
     }
-
-
-
 ]
