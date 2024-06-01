@@ -5,7 +5,6 @@ import  image91 from './../../../asset/3.png'
 const Marketing = () => {
     return (
        <div className={styles.container}>
-
            <h1 className={styles.header}>Caring is the new Marketing</h1>
            <div className={styles.text1}>
                <p>The Nexcent blog is the best place to read
@@ -20,7 +19,6 @@ const Marketing = () => {
                <img src={image91} alt="3.png"/>
            </div>
            <button className={styles.button}>Get a Demo </button>
-
        </div>
     )
 }
