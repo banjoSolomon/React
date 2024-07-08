@@ -1,19 +1,58 @@
-.heroSection{
+.heroSection {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top: 90px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
 }
-.heroSection> div > h1 {
+
+.heroSection > div > h1 {
     color: #4d4d4d;
     font-weight: bolder;
     font-size: 45px;
-
+    margin-bottom: 20px;
 }
-.button{
-   color:  #4caf4f;
+
+.heroSection > div > p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    color: #4caf4f;
     font-weight: bolder;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     border: 1px solid #4caf4f;
     border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 728px) {
+    .heroSection {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .heroSection > img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .heroSection > div > h1 {
+        font-size: 30px;
+    }
+
+    .heroSection > div > p {
+        font-size: 16px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
 }

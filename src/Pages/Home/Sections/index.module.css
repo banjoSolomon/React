@@ -13,3 +13,25 @@
 .section2 div {
     max-width: 600px;
 }
+
+
+@media only screen and (max-width: 728px) {
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Center text for better mobile experience */
+        padding: 5%; /* Adjust padding for smaller screens */
+    }
+
+    .section2 h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .section2 p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .section2 button {
+        display: none; /* Hide button on smaller screens */
+    }
+}

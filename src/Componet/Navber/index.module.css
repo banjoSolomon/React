@@ -1,10 +1,22 @@
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 0 45px;
-    /*margin-top: 10px;*/
+    align-items: center;
 }
-.midSection{
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoContainer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.midSection {
     display: flex;
     gap: 25px;
     font-weight: 500;
@@ -12,7 +24,53 @@
     justify-content: center;
     align-items: center;
 }
-.midSection > p{
+
+.midSection > p {
     color: #4d4d4d;
     font-size: 16px;
+    margin: 0;
 }
+
+@media (max-width: 1080px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobileMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 74px;
+        right: 20px;
+        background-color: white;
+        box-shadow: 2px 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        padding: 10px;
+        border-radius: 5px;
+    /*    z-index: 1000;*/
+    }
+
+    .midSection {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    /*.authButtons {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    align-items: flex-start;*/
+    /*    gap: 10px;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    /*.authButtons button {*/
+    /*    width: 100%;*/
+    /*}*/
+}
+
+
+
+
